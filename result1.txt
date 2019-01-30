@@ -1,0 +1,25 @@
+
+*-*-*-*-*-*-*-*-*-*-*-*
+Current State is: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
+Event: ORDER_RECEIVED
+Got an order of size = 0 items
+Invalid Payment-Attempts Reset to 0
+*-*-*-*-*-*-*-*-*-*-*-*
+Current State is: PROCESSING
+*-*-*-*-*-*-*-*-*-*-*-*
+Getting Payment MethodEvent: VALID_PAYMENT
+
+*-*-*-*-*-*-*-*-*-*-*-*
+Current State is: MANUFACTURING
+*-*-*-*-*-*-*-*-*-*-*-*
+Dispatching Factory LinesEvent: MANUFACTURE_COMPLETED
+Shutting Down Factory LinesClient has been charged
+*-*-*-*-*-*-*-*-*-*-*-*
+Current State is: SHIPPING
+*-*-*-*-*-*-*-*-*-*-*-*
+Getting Ship-To AddressEvent: SHIPMENT_ARRIVED
+Warranty has startedUpdating Statistics for 2 orders
+*-*-*-*-*-*-*-*-*-*-*-*
+Current State is: ACCEPTING
+*-*-*-*-*-*-*-*-*-*-*-*
